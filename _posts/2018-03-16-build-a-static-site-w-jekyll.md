@@ -15,7 +15,14 @@ Open your terminal and run `gem install jekyll` (may need to run `sudo gem insta
 
 Navigate to where you want your site files to be (via the terminal) and run `jekyll new <site-name>`
 
-Then `cd` into the <site-name> folder that was just created and run `bundle exec jekyll serve` Your local site will be available at 'localhost:4000'.
+Then `cd` into the <site-name> folder that was just created and run 
+
+```
+bundle install
+bundle exec jekyll serve
+``` 
+
+Your local site will be available at [localhost:4000](http://localhost:4000).
 
 ### Step 3 - Install jekyll admin plugin
 
